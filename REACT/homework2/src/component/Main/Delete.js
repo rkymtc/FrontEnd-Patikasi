@@ -1,7 +1,7 @@
 import React from "react";
 
 function DeleteTask({ updateTask, tasks }) {
-    
+
   const onChangeTask = (id) => {
     const taskList = tasks.map((task) =>
       tasks.indexOf(task) === id
@@ -20,7 +20,7 @@ function DeleteTask({ updateTask, tasks }) {
 
   return (
     <section className="main">
-     
+
       <ul className="todo-list">
         {tasks.map((task, i) => (
           <li key={i} className={task.isCompleted ? "completed" : ""}>

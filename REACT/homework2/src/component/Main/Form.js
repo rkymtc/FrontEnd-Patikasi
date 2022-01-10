@@ -20,19 +20,19 @@ function Form({ addTask, tasks }) {
 
     addTask([...tasks, todo]);
   };
-  
-  return(
-  <form onSubmit={onSubmit}>
-        <input
-          name="text"
-          type="text"
-          className="new-todo"
-          value={todo.text}
-          onChange={onChangeInput}
-          placeholder="What needs to be done?"
-          autoFocus
-        />
-      </form>
+
+  return (
+    <form onSubmit={onSubmit}>
+      <input
+        name="text"
+        type="text"
+        className="new-todo"
+        value={todo.text}
+        onChange={onChangeInput}
+        placeholder="What needs to be done?"
+        autoFocus
+      />
+    </form>
   )
 }
 export default Form

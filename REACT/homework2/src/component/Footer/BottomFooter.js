@@ -1,9 +1,9 @@
 import React from 'react'
 
 function BottomFooter() {
-    return (
-        <div>
-             <footer class="info">
+  return (
+    <div>
+      <footer class="info">
         <p>Click to edit a todo</p>
         <p>
           Created by <a href="https://d12n.me/">Dmitry Sharabin</a>
@@ -12,8 +12,8 @@ function BottomFooter() {
           Part of <a href="http://todomvc.com">TodoMVC</a>
         </p>
       </footer>
-        </div>
-    )
+    </div>
+  )
 }
 
 export default BottomFooter
